@@ -1,0 +1,5 @@
+{
+  "name": "Namyang Parking Manager",
+  "description": "Mobile-first parking management system for Namyang Valley Garden & Pension with automated quota calculation and revenue tracking.",
+  "requestFramePermissions": []
+}
