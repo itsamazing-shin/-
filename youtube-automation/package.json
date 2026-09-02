@@ -1,0 +1,23 @@
+{
+  "name": "youtube-automation",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Script -> images -> video clips -> narration -> subtitles -> assembled YouTube video, run as local Node scripts.",
+  "scripts": {
+    "new-project": "node scripts/00-new-project.mjs",
+    "images": "node scripts/01-generate-images.mjs",
+    "clips": "node scripts/02-generate-video-clips.mjs",
+    "audio": "node scripts/03-generate-audio.mjs",
+    "subtitles": "node scripts/04-generate-subtitles.mjs",
+    "assemble": "node scripts/05-assemble.mjs",
+    "thumbnail": "node scripts/06-generate-thumbnail.mjs",
+    "pipeline": "node scripts/run-pipeline.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

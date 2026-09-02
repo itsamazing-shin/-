@@ -1,0 +1,10 @@
+node_modules/
+.env
+
+# 생성된 미디어(용량이 크고 재생성 가능하므로 커밋하지 않음)
+projects/*/images/
+projects/*/clips/
+projects/*/audio/
+projects/*/subtitles/
+projects/*/output/
+projects/*/tmp/
