@@ -12,6 +12,24 @@ dist
 dist-ssr
 *.local
 
+# youtube-longform-automation (생성물/로그/에러는 커밋하지 않음 — 디렉터리 자체가 아니라
+# 확장자 기준으로 제외해야 하위 폴더의 .gitkeep이 계속 추적됨)
+youtube-longform-automation/work/00_inbox/*.txt
+youtube-longform-automation/work/00_inbox/_claimed/*.txt
+youtube-longform-automation/work/00_inbox/_rejected/*.txt
+youtube-longform-automation/work/**/*.mp3
+youtube-longform-automation/work/**/*.mp4
+youtube-longform-automation/work/**/*.wav
+youtube-longform-automation/work/**/*.script.txt
+youtube-longform-automation/work/**/*.captions.txt
+youtube-longform-automation/work/**/*.scenes.txt
+youtube-longform-automation/errors/*.txt
+youtube-longform-automation/logs/*.log
+youtube-longform-automation/config/assets/*.mp4
+youtube-longform-automation/venv/
+youtube-longform-automation/__pycache__/
+**/__pycache__/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
